@@ -1,0 +1,25 @@
+{
+  "name": "practica2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc src/main.js",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/prompts": "^2.4.9",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
